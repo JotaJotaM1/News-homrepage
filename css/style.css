@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
 }
 
@@ -35,7 +35,7 @@ header {
     gap: 30px;
 }
 
-.containListNav{
+.containListNav {
     display: none;
 }
 
@@ -135,7 +135,7 @@ h2 {
         margin: 4% 8%;
     }
 
-    .icon-menu{
+    .icon-menu {
         display: none;
     }
 
@@ -163,7 +163,7 @@ h2 {
 
     h1 {
         font-size: 70px;
-        
+
     }
 
     .itemOne {
@@ -199,20 +199,20 @@ h2 {
         gap: 30px;
     }
 
-    .containerGeneralTwo{
+    .containerGeneralTwo {
         margin-bottom: 80px;
     }
 
-    .containListNav{
+    .containListNav {
         display: flex;
         font-size: 18px;
-        
+
     }
 
-    li{
-    padding-left: 40px;
-    color: var(--Dark-grayish-blue);
-    cursor: pointer;
+    li {
+        padding-left: 40px;
+        color: var(--Dark-grayish-blue);
+        cursor: pointer;
     }
 
 }
