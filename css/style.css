@@ -210,9 +210,32 @@ h2 {
 
     }
 
+    a {
+        text-decoration: none;
+    }
+
     li {
         padding-left: 40px;
         color: var(--Dark-grayish-blue);
+        cursor: pointer;
+
+    }
+
+    li:hover {
+        color: var(--Soft-red);
+    }
+
+    .buttonOne:hover{
+        background-color: var(--Very-dark-blue);
+        cursor: pointer;
+    }
+    .titleImgRetro:hover{
+        color: var(--Soft-red);
+        cursor: pointer;
+    }
+
+    .textItemFourOne:hover{
+        color: var(--Soft-orange);
         cursor: pointer;
     }
 
