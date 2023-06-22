@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 :root {
     --Off-white: hsl(36, 100%, 99%);
     --Grayish-blue: hsl(233, 8%, 79%);
@@ -29,6 +33,10 @@ header {
 .containerGeneralOne {
     display: grid;
     gap: 30px;
+}
+
+.containListNav{
+    display: none;
 }
 
 .imgMobile {
@@ -127,6 +135,10 @@ h2 {
         margin: 4% 8%;
     }
 
+    .icon-menu{
+        display: none;
+    }
+
     main {
         margin: 0 8%;
     }
@@ -137,7 +149,7 @@ h2 {
 
     .imgDesktop {
         display: grid;
-        height: auto;
+        height: 100%;
         width: 100%;
     }
 
@@ -188,7 +200,17 @@ h2 {
     }
 
     .containerGeneralTwo{
-        margin-bottom: 40px;
+        margin-bottom: 80px;
+    }
+
+    .containListNav{
+        display: flex;
+        font-size: 20px;
+        
+    }
+
+    li{
+    padding-left: 30px;
     }
 
 }
