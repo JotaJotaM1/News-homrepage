@@ -205,12 +205,14 @@ h2 {
 
     .containListNav{
         display: flex;
-        font-size: 20px;
+        font-size: 18px;
         
     }
 
     li{
-    padding-left: 30px;
+    padding-left: 40px;
+    color: var(--Dark-grayish-blue);
+    cursor: pointer;
     }
 
 }
