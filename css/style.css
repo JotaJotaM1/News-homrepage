@@ -120,3 +120,70 @@ h2 {
     line-height: 28px;
     font-size: 15px;
 }
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        margin: 4% 25%;
+    }
+
+    main {
+        margin: 0 25%;
+    }
+
+    .imgMobile {
+        display: none;
+    }
+
+    .imgDesktop {
+        display: grid;
+        height: auto;
+        width: 100%;
+    }
+
+    .containerGeneralOne {
+        display: grid;
+        align-content: start;
+        grid-auto-rows: auto;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    h1 {
+        font-size: 3vw
+    }
+
+    .itemOne {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+
+
+    }
+
+    .itemTwo {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+
+
+    }
+
+    .itemThree {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        padding-right: 25px;
+    }
+
+    .itemFour {
+
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        padding: 8%;
+
+    }
+
+    .containerGeneralTwo {
+        display: flex;
+        gap: 30px;
+    }
+
+}
